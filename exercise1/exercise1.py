@@ -12,7 +12,11 @@ def print_art():
 
 	print (art)
 
+def hi_fellow(message):
+	if message == "I am an Insight Fellow!":
+		print ("That's awesome! How is that random forest model going?")
+
 
 if __name__ == '__main__':
-	print_art()
+	hi_fellow("I am an Insight Fellow!")
 
